@@ -1,7 +1,7 @@
-import React from 'react';
-import { render } from 'react-dom';
-// import Home from './../pages/containers/home';
+import React from 'react'
+import { render } from 'react-dom'
+import Home from './../pages/containers/Home'
 
 const homeContainer = document.getElementById('container');
 
-render(<h1>HOME SARE</h1>, homeContainer);
+render(<Home />, homeContainer);
